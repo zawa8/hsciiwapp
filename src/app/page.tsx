@@ -2,7 +2,8 @@
 import Image from "next/image";
 import { Textarea } from "@/components/ui/textarea"
 import {hsciistr} from "htrlib";
-import Fpicker2ts from "@/components/hsciifp/Fpicker2ts";
+import { Hsciifontpicker } from "libhsciifp";
+
 import {  SetStateAction, useState } from 'react';
 
 export default function Home() {
@@ -55,7 +56,7 @@ a->ram i->sijaram u->vnuman e->gnesh o->gowinq
     <div className="grid grid-rows-[20px_1fr_20px] items-center justify-items-center min-h-screen p-8 pb-20 gap-16 sm:p-20 font-[family-name:var(--font-geist-sans)]">
       <main className="flex flex-col gap-[32px] row-start-2 items-center sm:items-start">
       <div className="flex gap-2 items-center flex-col sm:flex-row">
-			<Fpicker2ts/>
+			<Hsciifontpicker/>
           <Textarea id="fta"  rows={3} className="w-full border-black" placeholder={fontekst} />
 		</div>
         <div className="flex gap-1 items-center flex-col sm:flex-row">
