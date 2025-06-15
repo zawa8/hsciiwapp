@@ -61,7 +61,7 @@ a->ram i->sijaram u->vnuman e->gnesh o->gowinq
 		</div>
         <div className="flex gap-1 items-center flex-col sm:flex-row">
 			<button className="" onClick={on_eu2l}>
-				<Image src="/flggood.png" alt="modern india languages" width={100} height={100}/>
+				<Image src="/flag1.png" alt="modern india languages" width={100} height={100}/>
 			</button>
 			<button onClick={on_xvjqK2u}
 				className="bg-transparent hover:bg-green-500 text-sm text-green-700 hover:text-black border border-green hover:border-transparent w-[100px] h-[100px]">
@@ -73,7 +73,7 @@ a->ram i->sijaram u->vnuman e->gnesh o->gowinq
 			</button>
 			<a href="https://github.com/zawa8/font" target="_blank" rel="noopener noreferrer"
 				className="bg-transparent hover:bg-blue-500 text-sm text-black hover:text-white border border-blue-500 hover:border-transparent w-[100px] h-[100px]">
-				try hsciifont download install set in pc.phone browser
+				hscii font
 			</a>
         </div>
         <div className="flex min-w-full gap-2 items-center flex-col sm:flex-row">
