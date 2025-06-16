@@ -61,7 +61,7 @@ a->ram i->sijaram u->vnuman e->gnesh o->gowinq
 		</div>
         <div className="flex gap-1 items-center flex-col sm:flex-row">
 			<button className="" onClick={on_eu2l}>
-				<Image src="/flag1.png" alt="modern india languages" width={100} height={100}/>
+				<Image src="/flag1.jpg" alt="modern india languages" width={100} height={100}/>
 			</button>
 			<button onClick={on_xvjqK2u}
 				className="bg-transparent hover:bg-green-500 text-sm text-green-700 hover:text-black border border-green hover:border-transparent w-[100px] h-[100px]">
