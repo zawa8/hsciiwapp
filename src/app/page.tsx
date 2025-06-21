@@ -67,13 +67,12 @@ a->ram i->sijaram u->vnuman e->gnesh o->gowinq
 				className="bg-transparent hover:bg-green-500 text-sm text-green-700 hover:text-black border border-green hover:border-transparent w-[100px] h-[100px]">
 				vwx QKD BS JTZ CG yrf lmn kztd pbs aiueohcg
 			</button>
-			<button onClick={on_kh2uK}
-				className="bg-transparent hover:bg-green-500 text-sm text-green-700 hover:text-white border border-green-500 hover:border-transparent w-[100px] h-[100px]">
-				(zjt kqd bcgp)+h=<br/>ZJT KQD BCGf
+			<button onClick={on_kh2uK}>
+				<Image src="/flag2.jpg" alt="modern india languages" width={100} height={100}/>
 			</button>
 			<a href="https://github.com/zawa8/font" target="_blank" rel="noopener noreferrer"
 				className="bg-transparent hover:bg-blue-500 text-sm text-black hover:text-white border border-blue-500 hover:border-transparent w-[100px] h-[100px]">
-				hscii font
+				github.com/zawa8/font -- hscii utf englosoft
 			</a>
         </div>
         <div className="flex min-w-full gap-2 items-center flex-col sm:flex-row">
