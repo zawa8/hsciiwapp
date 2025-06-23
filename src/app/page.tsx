@@ -2,9 +2,9 @@
 import Image from "next/image";
 import { Textarea } from "@/components/ui/textarea"
 import {hsciistr} from "htrlib";
-import { Hsciifontpicker } from "libhsciifp";
-
 import {  SetStateAction, useState } from 'react';
+// import { Hsciifontpicker } from "libhsciifp";
+import Hsciifontpicker from "@/components/hsciifp/Hsciifontpicker";
 
 export default function Home() {
   const fontekst = `abcdefghijklmnopqrstuvwxyz
@@ -70,9 +70,8 @@ a->ram i->sijaram u->vnuman e->gnesh o->gowinq
 			<button onClick={on_kh2uK}>
 				<Image src="/flag2.jpg" alt="modern india languages" width={100} height={100}/>
 			</button>
-			<a href="https://github.com/zawa8/font" target="_blank" rel="noopener noreferrer"
-				className="bg-transparent hover:bg-blue-500 text-sm text-black hover:text-white border border-blue-500 hover:border-transparent w-[100px] h-[100px]">
-				github.com/zawa8/font -- hscii utf englosoft
+			<a href="https://github.com/zawa8/font" target="_blank" rel="noopener noreferrer">
+				<Image src="/githubfontbtn.png" alt="modern india languages" width={100} height={100}/>
 			</a>
         </div>
         <div className="flex min-w-full gap-2 items-center flex-col sm:flex-row">
