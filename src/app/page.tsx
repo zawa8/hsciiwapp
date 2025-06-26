@@ -1,5 +1,5 @@
 "use client";
-import Image from "next/image";
+// import Image from "next/image";
 import { Textarea } from "@/components/ui/textarea"
 import {hsciistr} from "htrlib";
 import {  SetStateAction, useState } from 'react';

@@ -1,6 +1,5 @@
 import type { Metadata } from "next";
 import "./globals.css";
-import Hsciifontpicker from "@/components/hsciifp/Hsciifontpicker";
 import { teluguonlyw8asc } from "@/components/hsciifp/hsciifonts";
 
 
