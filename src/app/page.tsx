@@ -59,20 +59,21 @@ a->ram i->sijaram u->vnuman e->gnesh o->gowinq
 			<Hsciifontpicker/>
           <Textarea id="fta"  rows={3} className="w-full border-black" placeholder={fontekst} />
 		</div>
-        <div className="flex gap-1 items-center flex-col sm:flex-row">
-			<button className="" onClick={on_eu2l}>
-				<Image src="/flag1.jpg" alt="modern india languages" width={100} height={100}/>
+        <div className="flex">
+			<button onClick={on_eu2l} className="text-wrap bg-black text-white py-2 px-4 rounded-md mx-2">
+				8aiueohcg 4xvqj
 			</button>
-			<button onClick={on_xvjqK2u}
-				className="bg-transparent hover:bg-green-500 text-sm text-green-700 hover:text-black border border-green hover:border-transparent w-[100px] h-[100px]">
-				vwx QKD BS JTZ CG yrf lmn kztd pbs aiueohcg
+			<button onClick={on_xvjqK2u} className="text-wrap bg-black text-white py-2 px-4 rounded-md mx-2">
+				KCGZS TDJQB
 			</button>
-			<button onClick={on_kh2uK}>
-				<Image src="/flag2.jpg" alt="modern india languages" width={100} height={100}/>
+			<button onClick={on_kh2uK} className="text-wrap bg-black text-white py-2 px-4 rounded-md mx-2">
+				hsoft
 			</button>
-			<a href="https://github.com/zawa8/font" target="_blank" rel="noopener noreferrer">
-				<Image src="/githubfontbtn.png" alt="modern india languages" width={100} height={100}/>
-			</a>
+			<button className="bg-blue-500 hover:bg-blue-700 text-white py-2 px-4 rounded-md mx-2">
+				<a href="https://github.com/zawa8/font" target="_blank" rel="noopener noreferrer">
+					hscii soft utf
+				</a>
+			</button>
         </div>
         <div className="flex min-w-full gap-2 items-center flex-col sm:flex-row">
           <Textarea id="ita"  rows={12} className="w-full border-black" value={iteksta}  onChange={handle_ita_change} placeholder={iplaceholer} />

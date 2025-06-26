@@ -1,5 +1,7 @@
 import type { Metadata } from "next";
 import "./globals.css";
+import Hsciifontpicker from "@/components/hsciifp/Hsciifontpicker";
+import { teluguonlyw8asc } from "@/components/hsciifp/hsciifonts";
 
 
 export const metadata: Metadata = {
@@ -8,5 +10,5 @@ export const metadata: Metadata = {
 };
 
 export default function RootLayout({ children, }: Readonly<{ children: React.ReactNode; }>) {
-  return ( <html lang="en"><body>{children}</body></html> );
+  return ( <html lang="en"><body className={`${teluguonlyw8asc.className} antialiased`}>{children}</body></html> );
 }
