@@ -7,7 +7,8 @@ import {  SetStateAction, useState } from 'react';
 import Hsciifontpicker from "@/components/hsciifp/Hsciifontpicker";
 
 export default function Home() {
-  const fontekst = `abcdefghijklmnopqrstuvwxyz
+  const fontekst = `plexse selekt hscii font:
+abcdefghijklmnopqrstuvwxyz
 ABCDEFGHIJKLMNOPQRSTUVWXYZ
 0123 4567 89LY VWPF 4*4=10=wnti=8+8`;
   const iplaceholer = `input: replace/paste here.ԃis is transliterator for phonetical languages.
@@ -56,8 +57,8 @@ a->ram i->sijaram u->vnuman e->gnesh o->gowinq
     <div className="grid grid-rows-[20px_1fr_20px] items-center justify-items-center min-h-screen p-8 pb-20 gap-16 sm:p-20">
       <main className="flex flex-col gap-[32px] row-start-2 items-center sm:items-start">
       <div className="flex gap-2 items-center flex-col sm:flex-row">
+          <Textarea id="fta"  rows={4} className="w-full border-black" placeholder={fontekst} readOnly/>
 			<Hsciifontpicker/>
-          <Textarea id="fta"  rows={3} className="w-full border-black" placeholder={fontekst} />
 		</div>
         <div className="flex">
 			<button onClick={on_eu2l} className="text-wrap bg-black text-white py-2 px-4 rounded-md mx-2">
