@@ -48,9 +48,10 @@ a->ram i->sijaram u->vnuman e->gnesh o->gowinq
   function on_eu2l() {  //alert("on_eu2l");
     hsciistrobz.setistr(iteksta).duztr();
     let all_output  = "";
-    for (const key in hsciistrobz.ostrdict) {
-      all_output += `modern_${key}: ` + hsciistrobz.ostrdict[key] + " \n" ;
-    }
+    //for (const key in hsciistrobz.ostrdict) {
+    //  all_output += `modern_${key}: ` + hsciistrobz.ostrdict[key] + " \n" ;
+    //}
+    all_output = hsciistrobz.ostrdict["hindi"] + " \n" ;
     set_iteksta(all_output);
 }  
   return (
