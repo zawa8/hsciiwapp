@@ -1,6 +1,6 @@
 import type { Metadata } from "next";
 import "./globals.css";
-import { hindienglosoftw8asc } from "@/components/hsciifp/hsciifonts";
+import { inglishenglosoftw8asc } from "@/components/hsciifp/hsciifonts";
 
 
 export const metadata: Metadata = {
@@ -9,5 +9,5 @@ export const metadata: Metadata = {
 };
 
 export default function RootLayout({ children, }: Readonly<{ children: React.ReactNode; }>) {
-  return ( <html lang="en"><body className={`${hindienglosoftw8asc.className} antialiased`}>{children}</body></html> );
+  return ( <html lang="en"><body className={`${inglishenglosoftw8asc.className} antialiased`}>{children}</body></html> );
 }
