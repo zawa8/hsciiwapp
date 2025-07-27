@@ -51,7 +51,7 @@ a->ram i->sijaram u->vnuman e->gnesh o->gowinq
     //for (const key in hsciistrobz.ostrdict) {
     //  all_output += `modern_${key}: ` + hsciistrobz.ostrdict[key] + " \n" ;
     //}
-    all_output = hsciistrobz.ostrdict["hindi"] + " \n" ;
+    all_output = hsciistrobz.ostrdict["inglish"] + " \n" + hsciistrobz.ostrdict["hindi"] ;
     set_iteksta(all_output);
 }  
   return (
