@@ -1,14 +1,17 @@
 [
-	{ "label": "binxry: 89LY_VWPF 4*4=10=wnti=8+8","walue": "binarywenglosoftw8asc"},
-	{ "label": "xinglish4", "walue": "inglishenglosoftw8asc" },
+	{ "label": "binary: 89LY_VWPF 4*4=10=wnti=8+8","walue": "binarywenglosoftw8asc"},
+	{ "label": "winglish", "walue": "winglish" },
+	{ "label": "vinqi", "walue": "hindionly" },
+	{ "label": "vinglish", "walue": "hinglish" },
 	{ "label": "russian", "walue": "russianenglosoftw8asc" },
 	{ "label": "korean", "walue": "koreanenglosoftw8asc" },
-	{ "label": "hindi", "walue": "hindienglosoftw8asc" },
-	{ "label": "bangla", "walue": "banglaenglosoftw8asc" },
-	{ "label": "telugu", "walue": "teluguenglosoftw8asc" },
-	{ "label": "sinhala", "walue": "sinhalaenglosoftw8asc" },
-	{ "label": "tamil", "walue": "tamilenglosoftw8asc" },
-	{ "label": "kannada", "walue": "kannadaenglosoftw8asc" },
-	{ "label": "malayalam", "walue": "malayalamenglosoftw8asc" },
-	{ "label": "oriya", "walue": "oriyaenglosoftw8asc" }
+	{ "label": "baNgla", "walue": "banglaonlyw8asc" },
+	{ "label": "jelugu", "walue": "teluguonlyw8asc" },
+	{ "label": "sinvxla8", "walue": "sinhalaonlyw8asc" },
+	{ "label": "jmil", "walue": "tamilonlyw8asc" },
+	{ "label": "kxnnxdda", "walue": "kannadaonlyw8asc" },
+	{ "label": "mxlxyalxm", "walue": "malayalamonlyw8asc" },
+	{ "label": "oriya8", "walue": "oriyaonlyw8asc" },
+	{ "label": "gurmukhi8", "walue": "gurmukhionlyw8asc" },
+	{ "label": "guzraji8", "walue": "guzrationlyw8asc" }	
   ]

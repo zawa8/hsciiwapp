@@ -1,4 +1,7 @@
 import localFont from "next/font/local";
+export const winglish = localFont({ src: "./fonts/winglish.woff2", display: "swap", });
+export const hindionly = localFont({ src: "./fonts/hindionly.woff2", display: "swap", });
+export const hinglish = localFont({ src: "./fonts/hinglish.woff2", display: "swap", });
 export const binarywenglosoftw8asc = localFont({ src: "./fonts/hscii/englosoftw8/englosoftw8asc/binarywenglosoftw8asc.woff2", display: "swap", });
 export const heksenglosoftw8asc = localFont({ src: "./fonts/hscii/englosoftw8/englosoftw8asc/heksenglosoftw8asc.woff2", display: "swap", });
 //////~~~~~~~~~~~~~~
