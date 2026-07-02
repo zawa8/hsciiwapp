@@ -4,7 +4,7 @@ import { Textarea } from "@/components/ui/textarea"
 import {hsciistr} from "htrlib";
 import {  SetStateAction, useState } from 'react';
 // import { Hsciifontpicker } from "libhsciifp";
-import Hsciifontpicker from "@/components/hsciifp/Hsciifontpicker";
+import LocalFontPicker from "@/components/hsciifp/LocalFontPicker";
 
 export default function Home() {
   const fontekst = `plexse selekt hscii font:
@@ -59,7 +59,7 @@ a->ram i->sijaram u->vnuman e->gnesh o->gowinq
       <main className="flex flex-col gap-[32px] row-start-2 items-center sm:items-start">
       <div className="flex gap-2 items-center flex-col sm:flex-row">
           <Textarea id="fta"  rows={4} className="w-full border-black" placeholder={fontekst} readOnly/>
-			<Hsciifontpicker/>
+			<LocalFontPicker/>
 		</div>
         <div className="flex">
 			<button onClick={on_eu2l} className="text-wrap bg-black text-white py-2 px-4 rounded-md mx-2">

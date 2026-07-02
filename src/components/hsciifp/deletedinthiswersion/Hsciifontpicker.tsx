@@ -6,10 +6,13 @@ import { hsciifont_classnames } from "./hsciifonts";
 const Hsciifontpicker = () => {
   const handle_fitem_change = (curr_selected_fitem: string) => {
     if (curr_selected_fitem) { setBodyFont(curr_selected_fitem); }
+	//alert("font sel is"+curr_selected_fitem);
   };
   const setBodyFont = (selected_hsciifont_name: string) => {
-    document.body.classList.value = document.body.classList.value.replaceAll(/__className_\w+\s+antialiased/g, "");
-    document.body.classList.value = document.body.classList.value.replaceAll(/antialiased\s+__className_\w+/g, "");
+    //document.body.classList.value = document.body.classList.value.replaceAll(/__className_\w+\s+/g, " ");
+    //document.body.classList.value = document.body.classList.value.replaceAll(/antialiased\s+/g, " ");
+    // document.body.classList.value = document.body.classList.value.replaceAll(/__className_\w+\s+antialiased/g, "");
+    // document.body.classList.value = document.body.classList.value.replaceAll(/antialiased\s+__className_\w+/g, "");
     document.body.classList.add(hsciifont_classnames[selected_hsciifont_name]);
     document.body.classList.add("antialiased");
   };
