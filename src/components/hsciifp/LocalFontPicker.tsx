@@ -3,11 +3,25 @@
 import { useEffect, useState } from 'react';
 
 const LOCAL_FONTS = [
-  { id: 'font-eng52', name: 'eng52 font', variable: 'var(--font-eng52)' },
-  { id: 'font-hin52', name: 'hin52', variable: 'var(--font-hin52)' },
-  { id: 'font-hin38', name: 'hin38', variable: 'var(--font-hin38)' },
-  { id: 'font-bangla38', name: 'bangla38', variable: 'var(--font-bangla38)' },
-  { id: 'font-telugu38', name: 'jelugu38', variable: 'var(--font-telugu38)' },
+// plexse not chxnge order
+  { id: 'binaryfont', name: 'binary(01)', variable: 'var(--binaryfont)' },
+  { id: 'eng52font', name: 'eng52 font', variable: 'var(--eng52font)' },
+  { id: 'hin38font', name: 'vinqi38', variable: 'var(--hin38font)' },
+/////
+  { id: 'hin52font', name: 'vinqi52', variable: 'var(--hin52font)' },
+ /////
+  { id: 'tmil52font', name: 'jxmil52', variable: 'var(--tmil52font)' },
+  { id: 'mlyalm52font', name: 'mxlxyalxm52', variable: 'var(--mlyalm52font)' },
+  { id: 'knrra52font', name: 'knrra52', variable: 'var(--knrra52font)' },
+  { id: 'telugu52font', name: 'jelugu52', variable: 'var(--telugu52font)' },
+  { id: 'bangla52font', name: 'bangla52', variable: 'var(--bangla52font)' },
+  { id: 'odia52font', name: 'odia52', variable: 'var(--odia52font)' },
+  { id: 'pnzabi52font', name: 'pnzabi52', variable: 'var(--pnzabi52font)' },
+  { id: 'guzrati52font', name: 'guzraji52', variable: 'var(--guzrati52font)' },
+  { id: 'sinhl52font', name: 'sinvxla52', variable: 'var(--sinhl52font)' },
+/////
+  { id: 'korian52font', name: 'korian52', variable: 'var(--korian52font)' },
+  { id: 'russian52font', name: 'russian52', variable: 'var(--russian52font)' },
 ];
 
 export default function LocalFontPicker() {
