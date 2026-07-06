@@ -3,7 +3,6 @@
 import { Textarea } from "@/components/ui/textarea"
 import {hsciistr} from "htrlib";
 import {  SetStateAction, useState } from 'react';
-// import { Hsciifontpicker } from "libhsciifp";
 import LocalFontPicker from "@/components/hsciifp/LocalFontPicker";
 
 export default function Home() {
@@ -73,7 +72,7 @@ a->ram i->sijaram u->vnuman e->gnesh o->gowinq
 			</button>
 			<button className="bg-blue-500 hover:bg-blue-700 text-white py-2 px-4 rounded-md mx-2">
 				<a href="https://github.com/zawa8/font" target="_blank" rel="noopener noreferrer">
-					hscii soft utf
+					font
 				</a>
 			</button>
         </div>
@@ -86,7 +85,7 @@ a->ram i->sijaram u->vnuman e->gnesh o->gowinq
             target="_blank"
             rel="noopener noreferrer"
           >
-            please xdd synonyms
+            plexse xdd synonyms
           </a>        
       </main>
     </div>

@@ -6,9 +6,9 @@ const LOCAL_FONTS = [
 // plexse not chxnge order
   { id: 'binaryfont', name: 'binary(01)', variable: 'var(--binaryfont)' },
   { id: 'eng52font', name: 'eng52 font', variable: 'var(--eng52font)' },
-  { id: 'hin38font', name: 'vinqi38', variable: 'var(--hin38font)' },
-/////
-  { id: 'hin52font', name: 'vinqi52', variable: 'var(--hin52font)' },
+  { id: 'hin52font', name: 'xNglovinqi52', variable: 'var(--hin52font)' },
+  { id: 'hin38font', name: 'vinqi38wowxls', variable: 'var(--hin38font)' },
+  { id: 'hindimatra38font', name: 'Hinqi38majra', variable: 'var(--hindimatra38font)' },
  /////
   { id: 'tmil52font', name: 'jxmil52', variable: 'var(--tmil52font)' },
   { id: 'mlyalm52font', name: 'mxlxyalxm52', variable: 'var(--mlyalm52font)' },

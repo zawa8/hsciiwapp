@@ -1,5 +1,8 @@
 import localFont from "next/font/local";
 
+export const hindimatra38font = localFont({
+  src: './fonts/hscii/matraw8/matraw8utf/hindimatra38utf.woff2', variable: '--hindimatra38font', display: 'swap',
+});
 export const binaryfont = localFont({
   src: './fonts/hscii/englosoftw8/englosoftw8utf/binarywenglosoftw8utf.woff2', variable: '--binaryfont', display: 'swap',
 });
