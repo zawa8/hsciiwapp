@@ -5,7 +5,8 @@ import { useEffect, useState } from 'react';
 const LOCAL_FONTS = [
 // plexse not chxnge order
   { id: 'binaryfont', name: 'binary(01)', variable: 'var(--binaryfont)' },
-  { id: 'eng52font', name: 'eng52 font', variable: 'var(--eng52font)' },
+  { id: 'eng52font', name: 'inglo52 font', variable: 'var(--eng52font)' },
+  { id: 'xng52font', name: 'xnglo52 font', variable: 'var(--xng52font)' },
   { id: 'hin52font', name: 'xNglovinqi52', variable: 'var(--hin52font)' },
   { id: 'hin38font', name: 'vinqi38wowxls', variable: 'var(--hin38font)' },
   { id: 'hindimatra38font', name: 'vinqi38majra', variable: 'var(--hindimatra38font)' },

@@ -12,6 +12,9 @@ export const korian52font = localFont({
 export const russian52font = localFont({
   src: './fonts/hscii/englosoftw8/englosoftw8utf/russianenglosoftw8utf.woff2', variable: '--russian52font', display: 'swap',
 });
+export const xng52font = localFont({
+  src: './fonts/hscii/englosoftw8/englosoftw8utf/xnglosoftw8utf.woff2', variable: '--xng52font', display: 'swap',
+});
 export const eng52font = localFont({
   src: './fonts/hscii/englosoftw8/englosoftw8utf/inglishenglosoftw8utf.woff2', variable: '--eng52font', display: 'swap',
 });

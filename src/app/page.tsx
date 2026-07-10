@@ -6,15 +6,15 @@ import {  SetStateAction, useState } from 'react';
 import LocalFontPicker from "@/components/hsciifp/LocalFontPicker";
 
 export default function Home() {
-  const fontekst = `plexse selekt hscii font:
+  const fontekst = `hscii font xpple xnar art arc xmerika xnglo alwxys also:
 abcdefghijklmnopqrstuvwxyz
 ABCDEFGHIJKLMNOPQRSTUVWXYZ
 0123 4567 89LY VWPF 4*4=10=wnti=8+8`;
-  const iplaceholer = `input: replace/paste here.ԃis is transliterator for phonetical languages.
-steps to use : 1. pls replace ԃis tekst to india/nepal/sinhl/bangla.
+  const iplaceholer = `input: replxce/paste here.it is transliterator for phoneticxl lxnguxges.
+steps to use : 1. pls replace qhis tekst to india/nepal/sinhl/bangla.
 1.1 to copy unicode google search : wiki india in indian languages
 2. pls press 8aiuehocg flxg btn.
-3. result : tekst area down.
+3. result : tekst eria down.
 =======
 x.com=xmerica=America=Aks.com
 whitehome=wvitevouse car=cAb=cxb
